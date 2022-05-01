@@ -13,7 +13,7 @@
         <!--Landing View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LandingViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LandingViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,23 +138,30 @@
         <!--About View Controller-->
         <scene sceneID="5eg-7i-vkM">
             <objects>
-                <viewController id="CxP-ml-mIf" customClass="AboutViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CxP-ml-mIf" customClass="AboutViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Unw-Kl-nB6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appaledeviceslist" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-E4-6Ki">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone13mini" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-E4-6Ki">
                                 <rect key="frame" x="20" y="144" width="374" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="9DN-mc-Xy1"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7f4-Gg-yIL">
-                                <rect key="frame" x="20" y="510" width="374" height="36"/>
+                                <rect key="frame" x="20" y="511" width="374" height="37"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Student ID No">
+                                    <fragment content="Contact ">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="systemBold" size="15"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="No">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="systemBold" size="15"/>
                                             <font key="NSOriginalFont" metaFont="systemBold" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -162,15 +169,16 @@
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-IT19180526</string>
+0768765434</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSu-9f-OMr">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -179,39 +187,38 @@ IT19180526</string>
                                     <navigationItem title="About Us" id="fIe-bG-SX5"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Application Design And Development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ify-LR-kVJ">
-                                <rect key="frame" x="20" y="364" width="374" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE STORY OF MR BIRYANI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ify-LR-kVJ">
+                                <rect key="frame" x="20" y="364" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assignment 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDs-xk-Jba">
-                                <rect key="frame" x="40" y="414.5" width="334" height="19.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taste Good" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDs-xk-Jba">
+                                <rect key="frame" x="40" y="415" width="334" height="20"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1i-fY-Tbz">
-                                <rect key="frame" x="20" y="576" width="374" height="197"/>
-                                <string key="text">Laculis nunc sed augue lacus viverra vitae congue eu consequat. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Nisi vitae suscipit tellus mauris a diam maecenas sed. Vulputate odio ut enim blandit. Enim nulla aliquet porttitor lacus. Varius duis at consectetur lorem donec massa. Sapien et ligula ullamcorper malesuada proin libero. Pharetra massa massa ultricies mi quis. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Tempus urna et pharetra pharetra. Adipiscing tristique risus nec feugiat. Bibendum ut tristique et egestas.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1i-fY-Tbz">
+                                <rect key="frame" x="20" y="556" width="374" height="252"/>
+                                <mutableString key="text">Founded by Chef Govinda Rajan - or as he prefers, Govind or Mr Biryani -, we’ve come a long way since our beginnings in late 2017. As a self-professed biryani lover with fond memories of preparing the dish with his family during childhood, the journey began when one of our co-founders who’s too shy to be named introduced Govind to spices from India, urging him to experiment a Hyderabadi style. Curious to see just what difference it’ll bring, Govind took up the suggestion and was immediately enveloped by the aromas and flavours that are remarkably different from the countless biryani he has tried over the years - and by that, we really mean countless.</mutableString>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1r-i0-gOY">
-                                <rect key="frame" x="20" y="454" width="374" height="36"/>
+                                <rect key="frame" x="20" y="455" width="374" height="36"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Student Name">
+                                    <fragment content="Gmail">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" metaFont="systemBold" size="15"/>
-                                            <font key="NSOriginalFont" metaFont="systemBold" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-S.A.N.L.D. Chandrasiri</string>
+mrbiriyani@gmail.com</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" metaFont="system" size="15"/>
@@ -253,7 +260,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--HomeUI Tab Bar Controller-->
         <scene sceneID="YQF-ww-g3O">
             <objects>
-                <tabBarController storyboardIdentifier="HomeUITabBarController" id="kHg-IG-SMU" customClass="HomeUITabBarController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="HomeUITabBarController" id="kHg-IG-SMU" customClass="HomeUITabBarController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="7wF-G0-jLl"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dvQ-Zl-605">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -291,7 +298,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Home View Controller-->
         <scene sceneID="REs-cZ-RR4">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="HvV-1e-MzK" customClass="HomeViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="HvV-1e-MzK" customClass="HomeViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="olg-qQ-xlx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -339,7 +346,7 @@ S.A.N.L.D. Chandrasiri</string>
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeFeaturedProductsCollectionViewCell" id="IrS-iz-kHj" customClass="HomeFeaturedProductsCollectionViewCell" customModule="IT19180526" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeFeaturedProductsCollectionViewCell" id="IrS-iz-kHj" customClass="HomeFeaturedProductsCollectionViewCell" customModule="IT19119786" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ADH-GB-Io2">
@@ -455,7 +462,7 @@ S.A.N.L.D. Chandrasiri</string>
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeNewProductsCollectionViewCell" id="c6j-rw-Vhv" customClass="HomeNewProductsCollectionViewCell" customModule="IT19180526" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeNewProductsCollectionViewCell" id="c6j-rw-Vhv" customClass="HomeNewProductsCollectionViewCell" customModule="IT19119786" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="n9c-G3-DbW">
@@ -579,7 +586,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Featured Products-->
         <scene sceneID="Wcs-tc-u6e">
             <objects>
-                <viewController id="uMW-IV-mpd" customClass="FeaturedProductsViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uMW-IV-mpd" customClass="FeaturedProductsViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f6o-Vb-AqE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -594,7 +601,7 @@ S.A.N.L.D. Chandrasiri</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FeaturedProductListCollectionViewCell" id="h3l-3n-znD" customClass="FeaturedProductListCollectionViewCell" customModule="IT19180526" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FeaturedProductListCollectionViewCell" id="h3l-3n-znD" customClass="FeaturedProductListCollectionViewCell" customModule="IT19119786" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="85U-hY-6Da">
@@ -681,7 +688,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--New Products-->
         <scene sceneID="Dh7-FJ-6aw">
             <objects>
-                <viewController id="s2y-l2-pYc" customClass="NewProductsViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="s2y-l2-pYc" customClass="NewProductsViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SZF-dX-WNb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -696,7 +703,7 @@ S.A.N.L.D. Chandrasiri</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewProductsListCollectionViewCell" id="0Rf-o7-bmM" customClass="NewProductsListCollectionViewCell" customModule="IT19180526" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewProductsListCollectionViewCell" id="0Rf-o7-bmM" customClass="NewProductsListCollectionViewCell" customModule="IT19119786" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ra3-Px-nPg">
@@ -784,7 +791,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Product Page-->
         <scene sceneID="Bz8-CE-CH2">
             <objects>
-                <viewController storyboardIdentifier="ProductInfoViewController" id="1K4-Cy-Vqe" customClass="ProductInfoViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductInfoViewController" id="1K4-Cy-Vqe" customClass="ProductInfoViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lnW-pH-WF2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -976,7 +983,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Login View Controller-->
         <scene sceneID="6VX-Cx-7ef">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="QDB-tc-ORh" customClass="LoginViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="QDB-tc-ORh" customClass="LoginViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y4b-qS-h7q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1127,7 +1134,7 @@ S.A.N.L.D. Chandrasiri</string>
                                 <rect key="frame" x="302" y="5.5" width="92" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleBannerSmall" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-cC-FCA">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="applepurple" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-cC-FCA">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="33"/>
                                     </imageView>
                                 </subviews>
@@ -1155,7 +1162,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Forgot Password View Controller-->
         <scene sceneID="An6-s3-8Yz">
             <objects>
-                <viewController id="vJj-sg-aBs" customClass="ForgotPasswordViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vJj-sg-aBs" customClass="ForgotPasswordViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LQe-QD-P9r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1248,7 +1255,7 @@ S.A.N.L.D. Chandrasiri</string>
                                 <rect key="frame" x="302" y="5.5" width="92" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleBannerSmall" translatesAutoresizingMaskIntoConstraints="NO" id="gQN-xD-Z1q">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="applepurple" translatesAutoresizingMaskIntoConstraints="NO" id="gQN-xD-Z1q">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="33"/>
                                     </imageView>
                                 </subviews>
@@ -1273,7 +1280,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Reset Password View Controller-->
         <scene sceneID="arp-4f-OUj">
             <objects>
-                <viewController storyboardIdentifier="ResetPasswordViewController" id="2iu-uE-7tg" customClass="ResetPasswordViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResetPasswordViewController" id="2iu-uE-7tg" customClass="ResetPasswordViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lZD-hQ-TMS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1401,7 +1408,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--Signup View Controller-->
         <scene sceneID="IKh-tJ-WyB">
             <objects>
-                <viewController id="zdn-81-dhn" customClass="SignupViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zdn-81-dhn" customClass="SignupViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i7D-2K-Ycr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1575,7 +1582,7 @@ S.A.N.L.D. Chandrasiri</string>
                                 <rect key="frame" x="302" y="5.5" width="92" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleBannerSmall" translatesAutoresizingMaskIntoConstraints="NO" id="LDL-UA-t1P">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="applepurple" translatesAutoresizingMaskIntoConstraints="NO" id="LDL-UA-t1P">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="33"/>
                                     </imageView>
                                 </subviews>
@@ -1667,7 +1674,7 @@ S.A.N.L.D. Chandrasiri</string>
         <!--More View Controller-->
         <scene sceneID="zlU-UV-GMa">
             <objects>
-                <viewController id="XVP-Mo-BqK" customClass="MoreViewController" customModule="IT19180526" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XVP-Mo-BqK" customClass="MoreViewController" customModule="IT19119786" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="REp-80-6JE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1724,18 +1731,18 @@ S.A.N.L.D. Chandrasiri</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bLn-YK-4ih"/>
-        <segue reference="wuE-0i-0Uu"/>
+        <segue reference="HXC-W7-PnP"/>
+        <segue reference="1OS-vW-ebn"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="appaledeviceslist" width="1599" height="768"/>
         <image name="appleBannerSmall" width="92" height="33"/>
-        <image name="applepurple" width="512" height="512"/>
+        <image name="applepurple" width="2000" height="2000"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="circle.grid.3x3.fill" catalog="system" width="128" height="112"/>
         <image name="eye" catalog="system" width="128" height="81"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
-        <image name="iphone12promax" width="1024" height="1024"/>
+        <image name="iphone12promax" width="680" height="680"/>
+        <image name="iphone13mini" width="539" height="360"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
@@ -1747,6 +1754,9 @@ S.A.N.L.D. Chandrasiri</string>
         </systemColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="scrollViewTexturedBackgroundColor">
             <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
